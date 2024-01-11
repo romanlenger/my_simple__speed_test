@@ -1,0 +1,6 @@
+create venv and install requirments:
+	python -m venv venv
+	pip install -r requirements.txt 
+
+install .exe file:
+	pyinstaller --onefile speedtest_app.py
